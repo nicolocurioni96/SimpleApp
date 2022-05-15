@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var users: [User] = [
+        User(name: "Mario"),
+        User(name: "John"),
+        User(name: "Tim"),
+        User(name: "Steve"),
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List {
+            ForEach(users, id: \.id) { user in
+                Text(user.name)
+            }
+        }
     }
 }
 
