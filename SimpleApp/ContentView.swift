@@ -17,10 +17,12 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        List {
-            ForEach(users, id: \.id) { user in
-                Text(user.name)
-            }
+        NavigationView {
+            List {
+                ForEach(users, id: \.id) { user in
+                    Text(user.name)
+                }
+            }.navigationTitle(Text("Simple App"))
         }
     }
 }
