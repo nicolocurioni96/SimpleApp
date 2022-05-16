@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A12B7C312832E324003A9146 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B7C302832E324003A9146 /* DetailView.swift */; };
 		A1EE8D32283184EF00552EFB /* SimpleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE8D31283184EF00552EFB /* SimpleAppApp.swift */; };
 		A1EE8D34283184EF00552EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE8D33283184EF00552EFB /* ContentView.swift */; };
 		A1EE8D36283184F100552EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EE8D35283184F100552EFB /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A12B7C302832E324003A9146 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A1EE8D2E283184EF00552EFB /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EE8D31283184EF00552EFB /* SimpleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppApp.swift; sourceTree = "<group>"; };
 		A1EE8D33283184EF00552EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				A1EE8D31283184EF00552EFB /* SimpleAppApp.swift */,
 				A1EE8D33283184EF00552EFB /* ContentView.swift */,
+				A12B7C302832E324003A9146 /* DetailView.swift */,
 				A1EE8D3F283193B100552EFB /* Model */,
 				A1EE8D35283184F100552EFB /* Assets.xcassets */,
 				A1EE8D37283184F100552EFB /* Preview Content */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1EE8D34283184EF00552EFB /* ContentView.swift in Sources */,
+				A12B7C312832E324003A9146 /* DetailView.swift in Sources */,
 				A1EE8D32283184EF00552EFB /* SimpleAppApp.swift in Sources */,
 				A1EE8D41283193BB00552EFB /* User.swift in Sources */,
 			);
