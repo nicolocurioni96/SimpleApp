@@ -24,6 +24,8 @@ struct ContentView: View {
                         DetailView(user: user)
                     } label: {
                         Text(user.name)
+                            .font(.footnote)
+                            .foregroundColor(.black)
                     }
                 }
             }.navigationTitle(Text("Simple App"))

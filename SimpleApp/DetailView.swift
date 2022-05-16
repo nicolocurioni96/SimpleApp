@@ -14,6 +14,9 @@ struct DetailView: View {
     var body: some View {
         VStack {
             Text(user.name)
+                .font(.system(size: 30))
+                .foregroundColor(.orange)
+                .bold()
         }
     }
 }
