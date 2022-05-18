@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var action = ""
-    
     @State private var users: [User] = [
         User(name: "Mario"),
         User(name: "John"),
