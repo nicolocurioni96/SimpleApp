@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var users: [User] = [
+    @State private var action = ""
+    
+    @State private var users: [User] = [
         User(name: "Mario"),
         User(name: "John"),
         User(name: "Tim"),
@@ -28,8 +30,15 @@ struct ContentView: View {
                             .foregroundColor(.black)
                     }
                 }
+                .onDelete(perform: delete)
             }.navigationTitle(Text("Simple App"))
         }
+    }
+    
+    // MARK: - Actions
+    
+    private func delete(at offsets: IndexSet) {
+        users.remove(atOffsets: offsets)
     }
 }
 
